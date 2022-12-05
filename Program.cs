@@ -9,7 +9,7 @@ double intPow (int a,int b) {
     return Math.Pow (a,b);
 }
 
-int inputInt (string n){
+int inputInt (string   n){
     Console.WriteLine("Введите число "+ n + ":");
     string a = Console.ReadLine();
     return Convert.ToInt32(a);
