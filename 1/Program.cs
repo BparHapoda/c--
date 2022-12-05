@@ -3,7 +3,7 @@
 //[345, 897, 568, 234] -> 2
 
 Random random = new Random();
-int n = random.Next(1, 21);
+int n = random.Next(1, 20);
 
 int[] array = new int[n];
 fillArray(array);
