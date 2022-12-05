@@ -16,7 +16,7 @@ int result=0;
     }
     return Convert.ToString(result);
 }
-
+//kkk
 string inputInt (string n){
     Console.WriteLine("Введите число "+ n + ":");
     string a = Console.ReadLine();
