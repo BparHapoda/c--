@@ -8,7 +8,7 @@ Console.WriteLine (intPow(inputInt ("A"),inputInt("B")));
 double intPow (int a,int b) {
     return Math.Pow (a,b);
 }
-
+//kjkjkj
 int inputInt (string   n){
     Console.WriteLine("Введите число "+ n + ":");
     string a = Console.ReadLine();
