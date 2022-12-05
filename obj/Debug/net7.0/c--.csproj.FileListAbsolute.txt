@@ -1,5 +1,0 @@
-D:\geekbrains\c--\obj\Debug\net7.0\c--.csproj.AssemblyReference.cache
-D:\geekbrains\c--\obj\Debug\net7.0\c--.GeneratedMSBuildEditorConfig.editorconfig
-D:\geekbrains\c--\obj\Debug\net7.0\c--.AssemblyInfoInputs.cache
-D:\geekbrains\c--\obj\Debug\net7.0\c--.AssemblyInfo.cs
-D:\geekbrains\c--\obj\Debug\net7.0\c--.csproj.CoreCompileInputs.cache
