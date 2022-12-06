@@ -6,8 +6,7 @@
 using System.Collections;
 
 Random random = new Random();
-//int n = random.Next(1, 20);
-int n = 5;
+int n = random.Next(1, 20);
 double[] array = new double[n];
 array = fillArray(array);
 printArray(array);
@@ -37,7 +36,7 @@ double findMinMax(double[] array)
 {
 
     double min = array[0];
-    double max = array[0];
+    double max = min;
     for (int i = 1; i < array.Length; i++)
     {
         if (array[i] > max) { max = array[i]; }
