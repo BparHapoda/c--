@@ -1,39 +1,24 @@
-﻿//Задача 1: Задайте массив заполненный случайными положительными трёхзначными числами.
-// Напишите программу, которая покажет количество  чётных чисел в  массиве.
-//[345, 897, 568, 234] -> 2
+﻿
 
-Random random = new Random();
-int n = random.Next(1, 20);
-
-int[] array = new int[n];
-fillArray(array);
-printArray(array);
-Console.WriteLine(" -> " + findNumbers(array));
-
-void fillArray(int[] array)
-{
-    for (int i = 0; i < array.Length; i++)
-    {
-        array[i] = random.Next(100, 1000);
-    }
+Console.Write("Введите значения элементов : (когда закончите ввод,введите q)  ");
+string str="";
+int [] array=new int [] ;
+Arraylist 
+while(true){
+    str=Console.ReadLine();
+    if(str.Equals("q")){break;}
+    array.
 }
 
-void printArray(int[] array)
+int[] arr = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
+int count = 0;
+ 
+for (int i = 0; i < arr.Length; i++)
 {
-    Console.Write("[");
-    for (int i = 0; i < array.Length - 1; i++)
+    if (arr[i] > 0)
     {
-        Console.Write(array[i] + ", ");
+        count++;
     }
-    Console.Write(array[array.Length - 1]);
-    Console.Write(" ]");
 }
-int findNumbers(int[] array)
-{
-    int count = 0;
-    foreach (int i in array)
-    {
-        if (i % 2 == 0) { count++; }
-    }
-    return count;
-}
+ 
+Console.WriteLine("Кол-во элементов > :"+count);
